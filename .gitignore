@@ -1,0 +1,46 @@
+# Thư mục biên dịch
+bin/
+obj/
+
+# Cấu hình môi trường Visual Studio Code
+.vscode/
+.vs/
+
+# Thư viện cục bộ (không cần push lên Git)
+*.db
+*.sqlite
+*.db-journal
+
+# Cấu hình ASP.NET Core
+appsettings.json
+appsettings.Development.json
+
+# Log và Debug
+logs/
+*.log
+**/*.log
+debug/
+dump/
+
+# Thư viện bên ngoài
+node_modules/
+lib/
+
+# Thư mục xuất bản
+publish/
+dist/
+out/
+
+# File hệ thống và user
+*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln*
+*.user
+Thumbs.db
+.DS_Store
+
+news.db
+news.db-shm
+news.db-wal
